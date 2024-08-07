@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  margin: 2rem 0;
+  margin: 0;
   text-align: center;
 }
 
@@ -182,4 +182,23 @@ hr {
 input.ng-invalid.ng-touched.ng-dirty {
   background-color: #fbdcd6;
   border-color: #f84e2c;
+}
+
+::-webkit-scrollbar {
+  height: 9px;
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f1f0f0;
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #cdd2d6;
+  width: 9px;
+}
+
+::-webkit-scrollbar-corner {
+  background: #cdd2d6;
 }
